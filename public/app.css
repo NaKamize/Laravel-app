@@ -1,0 +1,133 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Muli, Helvetica Neue, Helvetica, Arial, sans-serif;
+  line-height: 1.42857;
+}
+
+#price .content th svg {
+  width: 15px;
+}
+
+.bold {
+  font-family: inherit;
+  font-weight: 900;
+}
+
+.content {
+  width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.content h1 {
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  font-size: 36px;
+}
+
+.content thead tr th {
+  border: 1px solid #3A7CBC;
+  color: #0A2131;
+  font-size: 18px;
+  background-color: rgba(58, 124, 188, .15);
+  min-width: 100px;
+  padding: 10px;
+}
+
+.content thead tr th:hover {
+  color: white;
+  background-color: #3A7CBC;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.content strong {
+  font-size: 18px;
+}
+
+.content strong:hover {
+  color: #3a7cbc;
+  transition: 0.1s;
+}
+
+.content td p {
+  text-align: center;
+  color: #777;
+  line-height: 1.1;
+  font-size: 14px;
+}
+
+.content td p a {
+  display: block;
+}
+
+.content .iconRowOK svg {
+  width: 30px;
+  color: rgb(17, 221, 17);
+}
+
+.content .iconRowX svg {
+  width: 30px;
+  color: rgb(221, 47, 47);
+}
+
+.content .iconRowOK svg:hover {
+  color: rgb(15, 187, 15);
+}
+
+.content .iconRowX svg:hover {
+  width: 30px;
+  color: rgb(218, 67, 67);
+}
+
+.content tbody tr:hover {
+  background-color: aliceblue;
+}
+
+.content td input {
+  border-radius: 5px;
+  height: 30px;
+  width: 100px;
+  border: 1px solid #3A7CBC;
+  font-size: 13px;
+}
+
+.content td {
+  text-align: center;
+  border-top: 1px solid steelblue;
+  border-bottom: 1px solid steelblue;
+}
+
+.content #orderButton {
+  background-color: #3a7cbc;
+  border-color: #3a7cbc;
+  color: white;
+  width: 250px;
+  font-size: 18px;
+  padding: 10px 16px;
+  border-radius: 5px;
+}
+
+.content #orderButton:hover {
+  cursor: pointer;
+  background-color: #356ca3;
+  transition: 0.3s;
+}
+
+.buttonWrapper {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+form {
+  overflow-x: auto;
+}
+
+img {
+  width: 200px;
+}
